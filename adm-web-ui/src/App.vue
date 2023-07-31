@@ -1,9 +1,11 @@
 <script>
   import Sidebar from "./organisms/Sidebar.vue"
+  import Navbar from "./organisms/Navbar.vue"
 
   export default{
     components:{
-      Sidebar
+      Sidebar,
+      Navbar
     }
   }
 </script>
@@ -12,13 +14,14 @@
   <!-- SIDEBAR -->
   <Sidebar/>
 
-  <div>
-    <!-- NAVBAR -->
-    <div class="bg-red-700 h-16 ml-52">      
+  <div class="flex">
+    <div class="w-full h-full ml-60">
+      <!-- NAVBAR -->
+      <Navbar/>
+  
+      <!-- MAIN -->
+      <main class="bg-gray-700 w-full h-[91.3vh]">
+      </main>
     </div>
-
-    <!-- MAIN -->
-    <main class="bg-gray-700 w-full h-[91.3vh]">
-    </main>
   </div>
 </template>
