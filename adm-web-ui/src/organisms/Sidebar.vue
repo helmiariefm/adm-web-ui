@@ -20,11 +20,11 @@
         <h1 class='mx-2 mt-9'>Menu</h1>
 
         <div class='mx-3 flex flex-col items-start'>
-            <Button label="Hide Sidebar" icon="chevron-left"/>
-            <Button label="Home" icon="home"/>
-            <Button label="Vendor/Supplier" icon="users"/>
-            <Button label="Customer/Dealer" icon="store-alt"/>
-            <Button label="Configuration/Setting" icon="cog"/>
+            <Button label="Hide Sidebar" icon="chevron-left" type="sidebar"/>
+            <Button label="Home" icon="home" type="sidebar"/>
+            <Button label="Vendor/Supplier" icon="users" type="sidebar"/>
+            <Button label="Customer/Dealer" icon="store-alt" type="sidebar"/>
+            <Button label="Configuration/Setting" icon="cog" type="sidebar"/>
         </div>
     </div>
 </template>

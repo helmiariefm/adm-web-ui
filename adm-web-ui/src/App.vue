@@ -1,11 +1,13 @@
 <script>
   import Sidebar from "./organisms/Sidebar.vue"
   import Navbar from "./organisms/Navbar.vue"
+  import MainContent from "./organisms/MainContent.vue"
 
   export default{
     components:{
       Sidebar,
-      Navbar
+      Navbar,
+      MainContent
     }
   }
 </script>
@@ -20,8 +22,7 @@
       <Navbar/>
   
       <!-- MAIN -->
-      <main class="bg-gray-700 w-full h-[91.3vh]">
-      </main>
+      <MainContent/>
     </div>
   </div>
 </template>
