@@ -12,8 +12,8 @@
             buttonClass: {
                 type: String,
                 default: "mt-7 w-full text-left hover:bg-slate-800 py-2 rounded-md",
-            },
-        },
+            }
+        }      
     };
 </script>
 

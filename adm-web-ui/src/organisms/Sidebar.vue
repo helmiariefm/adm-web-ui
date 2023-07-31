@@ -1,5 +1,5 @@
 <script>
-    import Button from '../atoms/Button.vue';
+    import Button from "../atoms/Button.vue";
 
     export default{
         components: {
@@ -14,7 +14,7 @@
             <div class='font-bold text-white bg-gradient-to-r from-[#32ae1e] to-[#1e8d91] px-2 h-6 my-auto rounded-full mr-2'>
                 <span class='text-base'>A</span>
             </div>
-            <h1 class='text-lg font-semibold'>Alfaeeza Admin</h1>
+            <h2 class='text-lg font-semibold'>Alfaeeza Admin</h2>
         </div>
       
         <h1 class='mx-2 mt-9'>Menu</h1>
