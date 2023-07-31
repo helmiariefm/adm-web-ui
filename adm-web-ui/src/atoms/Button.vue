@@ -9,11 +9,27 @@
                 type: String,
                 default: "",
             },
-            buttonClass: {
+            type: {
                 type: String,
-                default: "mt-7 w-full text-left hover:bg-slate-800 py-2 rounded-md",
+                default: "default"
             }
-        }      
+        },
+        computed:{
+            buttonClass() {
+                let classes = "";
+                switch (this.type) {
+                    case "sidebar":
+                        classes = "mt-7 w-full text-left hover:bg-slate-800 py-2 rounded-md";
+                        break;
+                    case "filter":
+                        classes = "border-2 rounded-md p-1 hover:bg-zinc-100";
+                        break;
+                    default:
+                        break;
+                }
+                return classes;
+            }
+        }
     };
 </script>
 
