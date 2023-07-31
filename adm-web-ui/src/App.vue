@@ -1,10 +1,16 @@
 <script>
+  import Sidebar from "./organisms/Sidebar.vue"
+
+  export default{
+    components:{
+      Sidebar
+    }
+  }
 </script>
 
 <template>
   <!-- SIDEBAR -->
-  <div class="bg-yellow-700 w-52 h-full fixed">
-  </div>
+  <Sidebar/>
 
   <div>
     <!-- NAVBAR -->
