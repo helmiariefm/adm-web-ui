@@ -30,8 +30,8 @@
                 <h4 class='self-center'>hello, Admin!</h4>
                 <font-awesome-icon icon="user" class="text-gray-500 bg-gray-200 p-2 rounded-full self-center"/>                
             </div>
-            <font-awesome-icon icon="bell" class='w-5 h-5 p-1 text-gray-500 bg-gray-200 rounded-full self-center' />
-            <font-awesome-icon icon="save" class='w-5 h-5 p-1 text-gray-500 bg-gray-200 rounded-full self-center' />
+            <font-awesome-icon icon="bell" class='w-5 h-5 p-1 hidden md:block text-gray-500 bg-gray-200 rounded-full self-center' />
+            <font-awesome-icon icon="save" class='w-5 h-5 p-1 hidden md:block text-gray-500 bg-gray-200 rounded-full self-center' />
         </div>
     </div>
 </template>
