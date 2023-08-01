@@ -1,8 +1,24 @@
 <script>
+  import Sidebar from "./organisms/Sidebar.vue"
+  import Navbar from "./organisms/Navbar.vue"
+  import MainContent from "./organisms/MainContent.vue"
+
+  export default{
+    components:{
+      Sidebar,
+      Navbar,
+      MainContent
+    }
+  }
 </script>
 
-<template>
-  <div class="text-cyan-800 text-center">
-    <h1>Alfaeeza</h1>
+<template>  
+  <Sidebar/>
+
+  <div class="flex">
+    <div class="w-full h-full ml-60">      
+      <Navbar/>      
+      <MainContent/>
+    </div>
   </div>
 </template>
