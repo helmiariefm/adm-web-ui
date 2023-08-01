@@ -29,7 +29,7 @@ export default {
 </script>
 
 <template>
-  <div class='flex justify-between bg-white border w-full mr-3 p-5 rounded-md'>
+  <div class='flex justify-between bg-white border w-full mr-3 my-3 md:my-0 p-5 rounded-md'>
     <div>
       <h4>{{ title }}</h4>
       <h4 class='text-2xl md:text-3xl font-bold text-zinc-600 my-3'>{{ value }}</h4>

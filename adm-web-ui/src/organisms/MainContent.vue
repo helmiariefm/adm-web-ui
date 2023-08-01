@@ -42,7 +42,7 @@
         </div>
 
         <div class='md:flex md:mx-11'>
-            <div class='bg-white border md:w-7/12 md:mr-3 md:mx-0 mx-1 p-5 rounded-md'>
+            <div class='bg-white border md:w-7/12 md:mr-3 md:mx-0 mb-3 md:mb-0 mx-1 p-5 rounded-md'>
                 <h1>Aging - Account Receivable</h1>
                 <img src='https://www.bbc.co.uk/staticarchive/8edd9e8871fc1723ec0051126b5e986b9d45457b.gif' class='mt-7'/>
             </div>
