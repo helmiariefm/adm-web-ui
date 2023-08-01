@@ -12,16 +12,12 @@
   }
 </script>
 
-<template>
-  <!-- SIDEBAR -->
+<template>  
   <Sidebar/>
 
   <div class="flex">
-    <div class="w-full h-full ml-60">
-      <!-- NAVBAR -->
-      <Navbar/>
-  
-      <!-- MAIN -->
+    <div class="w-full h-full ml-60">      
+      <Navbar/>      
       <MainContent/>
     </div>
   </div>
