@@ -16,7 +16,7 @@
   <Sidebar/>
 
   <div class="flex">
-    <div class="w-full h-full ml-60">      
+    <div class="w-full h-full md:ml-60">      
       <Navbar/>      
       <MainContent/>
     </div>
